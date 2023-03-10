@@ -1,8 +1,8 @@
 {
     // 推送版本大于该参数就更新
-    "time": 1675771737487,
+    "time": 1678456660892,
     // 用户可读时间，无意义参数
-    "date": "2023-02-07",
+    "date": "2023-03-10",
     // 允许推送更新
     "update": true,
     /**
@@ -46,7 +46,7 @@
         "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/orange_deep.jpg"
     ],
     "pink": [
-        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/pink.jpg"
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/pink.webp"
     ],
     "purple": [
         "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/purple.jpg"
