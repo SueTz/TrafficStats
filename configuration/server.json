@@ -1,17 +1,27 @@
 {
-    "spanCount": 3,// 服务界面 item 列数，范围: 1 ~ 5
+    // 推送版本大于该参数就更新
+    "time": 1675771737487,
+    // 用户可读时间，无意义参数
+    "date": "2023-02-07",
+    // 允许推送更新
+    "update": true,
+    // 服务界面 item 列数，范围: 1 ~ 5
+    "spanCount": 3,
     "resources": [
         {
             /**
              * icon 可以使用网络图片或手机里的图片（需要读写手机储存权限）
-             * 如果为 null 或资源不存在，则使用内置的“联通图片”
+             * 不写 icon 或资源不存在，则使用内置的“联通图片”
              */
             "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120174453.png",
             "title": "上网记录",
             "url": "*"// 由于上网记录界面没有使用网页，所以 * 代表上网记录
         },
         {
-            "icon": null,
+            "title": "隐藏业务",
+            "url": "**"
+        },
+        {
             "title": "使用量分析",
             "url": "https://img.client.10010.com/shiyongliangfenxi/index.html"
         },
@@ -21,12 +31,6 @@
             "url": "https://m.client.10010.com/mobileService/operationservice/queryOrderRelationshipTwo.htm"
         },
         {
-            "icon": null,
-            "title": "隐藏业务",
-            "url": "https://m.client.10010.com/mobileservicequery/operationserviceNew/queryOrderRelationship"
-        },
-        {
-            "icon": null,
             "title": "隐藏业务(办理记录)",
             "url": "https://m.client.10010.com/mobileservicequery/query/queryBusinessRecordDetails"
         },
@@ -61,9 +65,19 @@
             "url": "https://img.client.10010.com/newwodexinxi/index.html"
         },
         {
-            "icon": null,
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120174655.png",
+            "title": "剩余话费",
+            "url": "https://img.client.10010.com/shengyuhuafei2/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/7188192A31B5AE06E41B64DA6D65A9B0/20211130/png/20211130164125.png",
             "title": "我的礼包",
             "url": "https://m.client.10010.com/myPrizeForActivity/tenth517/homePage"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20201027/png/20201027185517.png",
+            "title": "我的套餐",
+            "url": "https://img.client.10010.com/wodetaocan/index.html"
         },
         {
             "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20201027/png/20201027190027.png",
